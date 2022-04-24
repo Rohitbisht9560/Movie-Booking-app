@@ -7,3 +7,22 @@
     padding-right: 32px;
     padding-left: 16px;
 }
+  
+.logostyle {
+    background-color: #ff7f7f;
+    height: 35px;
+  
+    animation-name: example;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes example {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
